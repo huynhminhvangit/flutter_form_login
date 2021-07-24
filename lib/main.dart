@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue.shade100,
       ),
       home: Home(),
-    )
+    );
   }
 }
 
@@ -30,9 +30,7 @@ class _HomeState extends State<Home> {
         title: Text('Login'),
         centerTitle: true,
       ),
-      body: Center(
-
-      ),
+      body: Center(),
     );
   }
 
